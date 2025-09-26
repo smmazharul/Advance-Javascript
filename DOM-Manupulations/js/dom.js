@@ -1,5 +1,5 @@
-console.log("dom.js loaded");
-console.log(document.body)
+const liCollection = document.getElementsByTagName("li");
 
-const h1 = document.getElementsByTagName("h1");
-console.log(h1)
+for(const li of liCollection){
+    console.log(li.innerText)
+}
